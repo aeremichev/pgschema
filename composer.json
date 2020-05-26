@@ -1,5 +1,5 @@
 {
-    "name": "racklin/pgschema",
+    "name": "aeremichev/pgschema",
     "description": "postgresql schemas for laravel 7",
     "keywords" : ["laravel", "postgres"],
     "license" : "MIT",
@@ -10,11 +10,11 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
+        "php": "^7.4",
         "laravel/framework": "7.*"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Racklin\\PGSchema": "src/"
         }
     },
